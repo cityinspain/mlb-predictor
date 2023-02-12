@@ -21,10 +21,10 @@ export function DndList({ data }: DndListProps) {
           ref={provided.innerRef}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
-          className="flex items-center p-4 mb-2 shadow-lg "
+          className="flex items-center p-4 mb-2 shadow-lg"
           style={{
             ...provided.draggableProps.style,
-            ...provided.dragHandleProps.style,
+
             backgroundColor: item.color || "#fff",
             color: "white",
           }}
